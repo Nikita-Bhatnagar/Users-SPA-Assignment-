@@ -59,6 +59,7 @@ select {
   line-height: 20px;
   font-weight: 600;
   box-shadow: none;
+  background-color: #fff;
 }
 main form {
   display: flex;
@@ -72,5 +73,10 @@ main form {
 @media (max-height: 700px) {
   main form {
     top: 100px;
+  }
+}
+@media (max-width: 450px) {
+  input[type="search"] {
+    width: 210px;
   }
 }
